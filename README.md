@@ -101,10 +101,10 @@ Mobile operating systems natively suppress background applications to save batte
 ### 5.1 Critical Latency Analysis (Honest System Evaluation)
 While the AI logic performed flawlessly, empirical measurements of the Wi-Fi-based PoC revealed a severe hardware bottleneck:
 *   **Frame Rate:** 10–15 FPS.
-*   **End-to-End Latency:** **~2.0 Seconds** (Smartphone Encoding $\rightarrow$ Wi-Fi $\rightarrow$ PC Decoding).
+*   **End-to-End Latency:** **~1.0 Seconds** (Smartphone Encoding $\rightarrow$ Wi-Fi $\rightarrow$ PC Decoding).
 
-In a real-world scenario, if a vehicle travels at an urban speed of 30 km/h ($v \approx 8.333\text{ m/s}$), the 2.0-second delay ($t = 2.0\text{ s}$) yields a critical braking deficit:
-$$Distance = v \times t = 8.333 \times 2.0 = 1.666\text{ meters}$$
+In a real-world scenario, if a vehicle travels at an urban speed of 30 km/h ($v \approx 5.56\text{ m/s}$), the 1-second delay ($t = 1.0\text{ s}$) yields a critical braking deficit:
+$$Distance = v \times t = 5.56 \times 1.0 = 5.56\text{ meters}$$
 An extra 1.666 meters of blind travel is a fatal flaw for a physical vehicle, proving that Wi-Fi transmission is unviable for final deployment. 
 
 ---
@@ -112,7 +112,7 @@ An extra 1.666 meters of blind travel is a fatal flaw for a physical vehicle, pr
 ## 6. Relevance to Unmanned Autonomous Systems (Future Upgrades)
 ### *(Assessment Criterion: Relevance to unmanned autonomous systems)*
 
-To transition this PoC into an industry-grade module for Unmanned Autonomous Systems (UAS), the 27.78-meter latency flaw must be eradicated. We propose a concrete, multi-phase future upgrade roadmap:
+To transition this PC into an industry-grade module for Unmanned Autonomous Systems (UAS), the 5.56-meter latency flaw must be eradicated. We propose a concrete, multi-phase future upgrade roadmap:
 
 ### 6.1 Portable Edge Computing Deployment (Immediate Fix)
 To achieve true portability and zero latency, the system will abandon the "Laptop + Wi-Fi" architecture. The Python backend and YOLOv8 model will be ported to a **Mini-PC (e.g., Raspberry Pi 5 or NVIDIA Jetson)**.
