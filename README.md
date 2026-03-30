@@ -38,7 +38,7 @@ python main.py --video test_videos/test1.mp4
 * GuardianAI: https://youtube.com/shorts/9B2_a3AWMsw?si=3fxfBuCSHNT98Vn1
 
 ## Configuration
-Edit config.py to adjust:
+Edit ```config.py``` to adjust:
 
 * Pixel area thresholds (Person: 6000, Cat/Dog: 2000)
 * max_area for dynamic area dictionary
