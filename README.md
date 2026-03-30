@@ -56,3 +56,17 @@ Edit ```config.py``` to adjust:
 * WHO Road Traffic Injuries Fact Sheet
 * IIHS Blind Spot Research
 * Hong Kong Transport Department Accident Statistics
+
+
+---
+
+### 2. `requirements.txt`
+
+```txt
+ultralytics
+opencv-python
+numpy
+requests
+blynklib
+python-telegram-bot
+PyYAML
