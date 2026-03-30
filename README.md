@@ -103,9 +103,9 @@ While the AI logic performed flawlessly, empirical measurements of the Wi-Fi-bas
 *   **Frame Rate:** 10–15 FPS.
 *   **End-to-End Latency:** **~1.0 Seconds** (Smartphone Encoding $\rightarrow$ Wi-Fi $\rightarrow$ PC Decoding).
 
-In a real-world scenario, if a vehicle travels at an urban speed of 30 km/h ($v \approx 5.56\text{ m/s}$), the 1-second delay ($t = 1.0\text{ s}$) yields a critical braking deficit:
+In a real-world scenario, if a vehicle travels at an urban speed of 20 km/h ($v \approx 5.56\text{ m/s}$), the 1-second delay ($t = 1.0\text{ s}$) yields a critical braking deficit:
 $$Distance = v \times t = 5.56 \times 1.0 = 5.56\text{ meters}$$
-An extra 1.666 meters of blind travel is a fatal flaw for a physical vehicle, proving that Wi-Fi transmission is unviable for final deployment. 
+An extra 5.56 meters of blind travel is a fatal flaw for a physical vehicle, proving that Wi-Fi transmission is unviable for final deployment. 
 
 ---
 
@@ -149,4 +149,23 @@ Edit __config.py__:  to adjust:
 * WHO Road Traffic Injuries Fact Sheet
 * IIHS Blind Spot Research
 * Hong Kong Transport Department Accident Statistics
+* Reference video: (YouTube Car Camera)
+*  https://youtu.be/w56bSB3xubQ?si=v_UsRE5P2n1MIsfY
+*  https://youtu.be/LDVaPv5mrt4?si=6uCS7ll_HDpBX1OD
+*  https://youtu.be/K1aPABpqUe0?si=MWOlhjtCsIiYT1sh
+*  https://youtu.be/a_09B_6NR24?si=zWRzUzZjRF8BJDN5
+*  https://youtu.be/7b18KN47MnI?si=kdtbbZYZy_vY2qwi
+*  https://youtu.be/N9kxwZAHW3E?si=KukNNyQm8tVbzxTA
+*  https://youtu.be/o_U_bfqBC2o?si=1Nm9ZBxTYnnD4QgH
+*  https://youtu.be/Rq0mVe9Qw64?si=8bedMmh-QdXlSNp0
+*  https://youtu.be/1EDtbd473bs?si=gggTz-ORmxTWXFWk
+*  https://youtu.be/OQw7aakDEm8?si=QwEfaO-Ek7pkPs8f
+*  https://youtu.be/4AHCer2doLM?si=i3c0_bCMzNxaLEhf
+*  https://youtu.be/B37kH34JShk?si=H1uZYNM9Om509Y-a
+*  https://youtu.be/mRrKtQvLR80?si=ttEhKe-q8mO22lxh
+*  https://youtu.be/a8VqxmNzw6A?si=jodKbeHQMX1C5GDU
+*  https://youtu.be/Ddhph6bvr5w?si=oDtpSFjhj8jaNjcD
+*  https://youtu.be/w_jSSnUwc1E?si=Lq67A2k5pg5rdB-_
+*  https://youtu.be/B37kH34JShk?si=VWUj_xZQ2fADvcnJ
+*  https://youtube.com/playlist?list=PLXAXUwU-qeptTQcA_pjPAljFbNcZ8yDXp&si=MR17qX9rtjEQuA0g
 
