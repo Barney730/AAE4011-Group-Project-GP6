@@ -103,9 +103,9 @@ While the AI logic performed flawlessly, empirical measurements of the Wi-Fi-bas
 *   **Frame Rate:** 10–15 FPS.
 *   **End-to-End Latency:** **~2.0 Seconds** (Smartphone Encoding $\rightarrow$ Wi-Fi $\rightarrow$ PC Decoding).
 
-In a real-world scenario, if a vehicle travels at an urban speed of 50 km/h ($v \approx 13.89\text{ m/s}$), the 2.0-second delay ($t = 2.0\text{ s}$) yields a critical braking deficit:
-$$Distance = v \times t = 13.89 \times 2.0 = 27.78\text{ meters}$$
-An extra 27.78 meters of blind travel is a fatal flaw for a physical vehicle, proving that Wi-Fi transmission is unviable for final deployment. 
+In a real-world scenario, if a vehicle travels at an urban speed of 30 km/h ($v \approx 8.333\text{ m/s}$), the 2.0-second delay ($t = 2.0\text{ s}$) yields a critical braking deficit:
+$$Distance = v \times t = 8.333 \times 2.0 = 1.666\text{ meters}$$
+An extra 1.666 meters of blind travel is a fatal flaw for a physical vehicle, proving that Wi-Fi transmission is unviable for final deployment. 
 
 ---
 
