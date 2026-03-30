@@ -91,7 +91,7 @@ Mobile operating systems natively suppress background applications to save batte
 1.  **Audio Siren:** Pushed via the **Telegram Bot API** to force a loud, overriding sound.
 2.  **Visual Dashboard:** Powered by the **Blynk IoT App**.
 
-**Engineering Justification for Blynk:** Rather than building a native application from scratch via Android Studio (which is restricted to Android devices and highly time-consuming), Blynk was selected because it is **Cross-Platform (iOS & Android)**, **IoT-ready** for fast alert communications, and highly cost-effective for PoC development.
+**Engineering Justification for Blynk:** Rather than building a native application from scratch via Android Studio (which is restricted to Android devices and highly time-consuming), Blynk was selected because it is **Cross-Platform (iOS & Android)**, **IoT-ready** for fast alert communications, and highly cost-effective for PC development.
 
 ---
 
