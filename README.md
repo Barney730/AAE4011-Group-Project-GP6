@@ -128,7 +128,7 @@ The Guardian AI project successfully demonstrates a highly functional, vision-ba
 * https://connectpolyu-my.sharepoint.com/:p:/g/personal/25134783d_connect_polyu_hk/IQC0dYZCCwasRLuKEfo0gDPtAWZd2Secq3D7in_rlks3pjo?e=g2UmQu
 
 ## 9. Video (YouTube): 
-* Demonstration: https://youtu.be/uMUcCrhCu54?si=-kR9fnlAn9y6GoGl
+* Demonstration: https://youtu.be/Cz_ouFdwdhI?si=DHvJq63FIajnveiD
 * GuardianAI: https://youtube.com/shorts/9B2_a3AWMsw?si=3fxfBuCSHNT98Vn1
 
 ## 10. Configuration
