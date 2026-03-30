@@ -140,7 +140,6 @@ Edit __config.py__:  to adjust:
 
 ## 11. Future Work
 
-* Port to Raspberry Pi 5 / NVIDIA Jetson for edge computing (zero latency)
 * TensorRT optimization
 * Full hardware integration with vehicle camera
 
