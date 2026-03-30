@@ -28,10 +28,6 @@ mkdir models
 wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8n.pt -O models/yolov8n.pt
 ```
 
-Here is the complete, professionally designed academic engineering report. It has been meticulously updated to integrate all your latest, high-scoring engineering decisions: the empirical video testing (6000 vs 2000 pixels), the YOLOv8 and COCO weight justifications, the Blynk app rationale, and the honest 2.0-second latency calculation pivoting into the Raspberry Pi edge computing upgrade.
-
-This structure is explicitly designed to maximize your score against the professor's Assessment Criteria. 
-
 ***
 
 ## Abstract
