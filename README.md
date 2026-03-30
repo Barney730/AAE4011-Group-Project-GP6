@@ -1,22 +1,19 @@
 # AAE4011-Group-Project
 # Guardian AI - Vision-Based Active Hazard Prevention System
 
-**Vision-Based ADAS for Vulnerable Road Users (Pedestrians, Cats, Dogs)**  
+**Advanced Driver Assistance System (ADAS) for Vulnerable Road Users**  
 **Department of Aeronautical and Aviation Engineering**  
 **The Hong Kong Polytechnic University**  
 **Group 6: Hung Yan Kin Barney, LAI Ki Uen, LIU Pui Ling**
 
-## Overview
-Guardian AI is an intelligent driver assistance system that detects vulnerable road users in vehicle blind spots using YOLOv8. It uses **empirical pixel-area thresholding** (6000 px for humans, 2000 px for cats/dogs) derived from real video testing to trigger proactive alerts via Telegram and Blynk.
+## Project Description
+Guardian AI detects pedestrians, cats, and dogs in vehicle **front-over blind spots** using YOLOv8.  
+It employs **empirical video testing** to set pixel-area thresholds: **6000 px (Person)** and **2000 px (Cat/Dog)** at the 3.0 m danger zone.
 
-### Key Features
-- Real-time YOLOv8 object detection (COCO pre-trained weights)
-- Empirical dynamic area dictionary for perspective-aware detection
-- Dual alerting system: Telegram (audio siren) + Blynk (visual dashboard)
-- Optimized thresholds: **6000 px (Person)** | **2000 px (Cat/Dog)**
-
-## Project Report
-Full academic report: [`docs/Project_Report.pdf`](docs/Project_Report.pdf)
+Key innovations:
+- Dynamic Area Dictionary for perspective-aware detection
+- Decoupled alerting: Telegram (loud audio siren) + Blynk (visual dashboard)
+- Honest latency analysis leading to Raspberry Pi edge computing upgrade
 
 ## Setup & Installation
 
@@ -27,7 +24,8 @@ pip install -r requirements.txt
 ```
 ## Usage
 ```bash
-python main.py --video test_videos/test1.mp4
+mkdir models
+wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8n.pt -O models/yolov8n.pt
 ```
 
 ## 1. PPT Slide:
