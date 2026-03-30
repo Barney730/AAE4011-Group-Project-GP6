@@ -126,26 +126,26 @@ To achieve true portability and zero latency, the system will abandon the "Lapto
 The Guardian AI project successfully demonstrates a highly functional, vision-based ADAS prototype targeting vulnerable road users. By discarding theoretical math in favor of empirical video testing, the team optimized precise detection thresholds (6,000px and 2,000px). Coupled with an innovative, cross-platform decoupled alerting architecture, the system guarantees alert delivery. Furthermore, by rigorously measuring and calculating our PoC latency limitations, the project establishes a mathematically proven, highly practical roadmap toward Edge Computing and Unmanned Autonomous Systems integration.
 
 ## 8. PPT Slide:
-* https://connectpolyu-my.sharepoint.com/:p:/g/personal/25134783d_connect_polyu_hk/IQBLkl3NU2hiS4TdyxAONfs6ATRBQ4czjyRWAowTJJOjwfA?e=cbUcyl
+* https://connectpolyu-my.sharepoint.com/:p:/g/personal/25134783d_connect_polyu_hk/IQC0dYZCCwasRLuKEfo0gDPtAWZd2Secq3D7in_rlks3pjo?e=g2UmQu
 
 ## 9. Video (YouTube): 
 * Demonstration: https://youtu.be/uMUcCrhCu54?si=-kR9fnlAn9y6GoGl
 * GuardianAI: https://youtube.com/shorts/9B2_a3AWMsw?si=3fxfBuCSHNT98Vn1
 
-## Configuration
-Edit ```config.py``` to adjust:
+## 10. Configuration
+Edit __config.py__:  to adjust:
 
 * Pixel area thresholds (Person: 6000, Cat/Dog: 2000)
 * max_area for dynamic area dictionary
 * Alert settings (Telegram Bot Token, Chat ID, Blynk auth)
 
-## Future Work
+## 11. Future Work
 
 * Port to Raspberry Pi 5 / NVIDIA Jetson for edge computing (zero latency)
 * TensorRT optimization
 * Full hardware integration with vehicle camera
 
-## References
+## 12. References
 
 * YOLOv8 by Ultralytics
 * WHO Road Traffic Injuries Fact Sheet
