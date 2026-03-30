@@ -37,6 +37,13 @@ python main.py --video test_videos/test1.mp4
 * Demonstration: https://youtu.be/uMUcCrhCu54?si=-kR9fnlAn9y6GoGl
 * GuardianAI: https://youtube.com/shorts/9B2_a3AWMsw?si=3fxfBuCSHNT98Vn1
 
+## Configuration
+Edit config.py to adjust:
+
+* Pixel area thresholds (Person: 6000, Cat/Dog: 2000)
+* max_area for dynamic area dictionary
+* Alert settings (Telegram Bot Token, Chat ID, Blynk auth)
+
 ## Future Work
 
 * Port to Raspberry Pi 5 / NVIDIA Jetson for edge computing (zero latency)
