@@ -13,7 +13,6 @@ It employs **empirical video testing** to set pixel-area thresholds: **6000 px (
 Key innovations:
 - Dynamic Area Dictionary for perspective-aware detection
 - Decoupled alerting: Telegram (loud audio siren) + Blynk (visual dashboard)
-- Honest latency analysis leading to Raspberry Pi edge computing upgrade
 
 ## Setup & Installation
 
